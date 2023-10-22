@@ -24,9 +24,6 @@ class ProfileFragment : Fragment() {
             findNavController().navigate(R.id.action_profileFragment_to_loginFragment)
         }
 
-        binding.favorite.setOnClickListener {
-            findNavController().navigate(R.id.action_profileFragment_to_favoritesFragment)
-        }
 
         binding.Reservations.setOnClickListener {
             findNavController().navigate(R.id.action_profileFragment_to_reservationFragment2)

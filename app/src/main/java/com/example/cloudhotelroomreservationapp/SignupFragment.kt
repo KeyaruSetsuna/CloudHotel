@@ -48,11 +48,11 @@ class SignupFragment : Fragment() {
                 Toast.makeText(requireContext(), "Add Username or Password", Toast.LENGTH_SHORT).show()
             } else {
                 if (pwordtext == cpwordtext) {
-                    if (savedata == true) {
+                    if (savedata) {
+                        Toast.makeText(requireContext(), "User Exist", Toast.LENGTH_SHORT).show()
+                    } else {
                         Toast.makeText(requireContext(), "Sign Up Successful", Toast.LENGTH_SHORT).show()
                         findNavController().navigate(R.id.action_signupFragment_to_loginFragment)
-                    } else {
-                        Toast.makeText(requireContext(), "User Exists", Toast.LENGTH_SHORT).show()
                     }
                 } else {
                     Toast.makeText(requireContext(), "Password does not match", Toast.LENGTH_SHORT).show()

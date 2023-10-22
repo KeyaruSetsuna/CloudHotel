@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper
 class LogInSignUpDatabase (context: Context): SQLiteOpenHelper(context,"Userdata" ,null, 1) {
 
     override fun onCreate(p0: SQLiteDatabase?) {
-        p0?.execSQL("create table Userdata (fullname TEXT,username TEXT primary key, password TEXT)")
+        p0?.execSQL("create table Userdata (fullname TEXT, username TEXT primary key, password TEXT)")
     }
 
     override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {
