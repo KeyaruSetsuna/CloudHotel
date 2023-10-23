@@ -50,10 +50,10 @@
         app:layout_constraintVertical_bias="0.369" />
 
     <TextView
-        android:id="@+id/Settings"
-        android:layout_width="107dp"
-        android:layout_height="46dp"
-        android:text="Help"
+        android:id="@+id/About"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:text="About App"
         android:textColor="@color/white"
         android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"

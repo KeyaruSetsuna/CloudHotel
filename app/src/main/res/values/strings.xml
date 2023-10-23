@@ -8,7 +8,6 @@
     <string name="favorites_text">Favorites</string>
     <string name="reservations_text">Reservations</string>
     <string name="userprofile_text">User Profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="room_1">room 1</string>

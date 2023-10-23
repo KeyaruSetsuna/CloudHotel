@@ -54,12 +54,12 @@ class HomepageFragment : Fragment(R.layout.fragment_homepage) {
         roomsArrayList = arrayListOf<Rooms>()
 
             imageId = arrayOf(
-                R.drawable.backk,
-                R.drawable.backk,
-                R.drawable.backk,
-                R.drawable.backk,
-                R.drawable.backk,
-                R.drawable.backk,
+                R.drawable.hotel1,
+                R.drawable.hotel2,
+                R.drawable.hotel3,
+                R.drawable.room4,
+                R.drawable.hotel4,
+                R.drawable.hotel5,
                 R.drawable.backk,
                 R.drawable.backk,
                 R.drawable.backk,

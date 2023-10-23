@@ -21,6 +21,8 @@ class RoomAdapter(private val roomList: ArrayList<Rooms>):RecyclerView.Adapter<R
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
 
         val currentItem = roomList[position]
+
+        holder.roomImage.setImageResource(currentItem.roomImage)
         holder.roomName.text= currentItem.roomName
     }
 

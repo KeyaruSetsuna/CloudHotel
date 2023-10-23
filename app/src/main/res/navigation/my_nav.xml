@@ -52,6 +52,9 @@
         <action
             android:id="@+id/action_homepageFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homepageFragment_to_room1Fragment"
+            app:destination="@id/room1Fragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -65,26 +68,30 @@
             android:id="@+id/action_profileFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
         <action
-            android:id="@+id/action_profileFragment_to_favoritesFragment"
-            app:destination="@id/favoritesFragment" />
-        <action
             android:id="@+id/action_profileFragment_to_reservationFragment2"
             app:destination="@id/reservationFragment2" />
         <action
-            android:id="@+id/action_profileFragment_to_favoritesFragment2"
-            app:destination="@id/favoritesFragment" />
-        <action
             android:id="@+id/action_profileFragment_to_reservationFragment22"
             app:destination="@id/reservationFragment2" />
+        <action
+            android:id="@+id/action_profileFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/favoritesFragment"
-        android:name="com.example.cloudhotelroomreservationapp.HelpFragment"
-        android:label="fragment_favorites"
-        tools:layout="@layout/fragment_help" />
     <fragment
         android:id="@+id/reservationFragment2"
         android:name="com.example.cloudhotelroomreservationapp.ReservationFragment"
         android:label="fragment_reservation"
         tools:layout="@layout/fragment_reservation" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.cloudhotelroomreservationapp.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/room1Fragment"
+        android:label="fragment_room1" />
 </navigation>

@@ -29,6 +29,10 @@ class ProfileFragment : Fragment() {
             findNavController().navigate(R.id.action_profileFragment_to_reservationFragment2)
         }
 
+        binding.About.setOnClickListener {
+            findNavController().navigate(R.id.action_profileFragment_to_aboutFragment)
+        }
+
 
         return binding.root
     }
